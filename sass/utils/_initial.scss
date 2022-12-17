@@ -1,0 +1,23 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.conteiner {
+    margin: auto;
+    margin-top: 0;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    &.nav {
+            @extend %flex-align;
+        }
+}
+.section {
+    padding-top: 94px;
+    &.combination {
+            text-align: center;
+            margin-top: 0;
+            padding-top: 0;
+        }
+}

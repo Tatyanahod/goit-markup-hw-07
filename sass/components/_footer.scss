@@ -1,0 +1,114 @@
+.conteiner__titel{
+color: var(--white-text-color);
+text-transform: uppercase;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+.address{
+background-color: #2F303A;
+}
+.address__cont{
+width: 206px;
+margin-left: 70px;
+}
+.conteiner__address{
+width: 231px;
+}
+.conteiner__address li{
+margin-bottom: 12px;
+&:last-child{
+margin-bottom: 0;
+}
+}
+
+.address__form{
+width: 570px ;
+height: 86px;
+margin-left: 94px;
+}
+.address__form h2{
+
+font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.address__form input{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+width: 356px;
+height: 50px;
+background-color: #2F303A;
+color: #AFB1B8;
+padding-left: 16px;
+}
+
+.address__form button{
+width: 198px;
+height: 50px;
+display: inline-block;
+background-color: var(--accent-color);
+border: 1px var(--accent-color) solid;
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin-left: 10px;
+position: relative;
+}
+.address__form svg{
+   
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    
+    fill: #ffffff;
+    display: inline-block; 
+}
+.address__list a{
+font-style: normal;
+text-decoration: none;
+font-size: 14px;
+line-height: 1.7;
+color: rgba(255, 255, 255, 0.6)
+}
+.address__list span{
+color: var(--white-text-color);
+}
+.button-text{
+margin-right: 10px;
+}
+.button-svg{
+position: absolute;
+top: 13px;
+right: 17px;
+}
+.conteiner-first {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 60px;
+
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

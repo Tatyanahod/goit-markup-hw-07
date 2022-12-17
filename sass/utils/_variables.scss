@@ -1,0 +1,20 @@
+:root {
+    --primary-text-color: #212121;
+    --dop-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --primary-background-color: #F5F5F5;
+    --secondary-background-color: #F5F4FA;
+    --border-color: #EEEEEE;
+}
+.page {
+    background-color: var(--white-text-color);
+    font-family: 'Roboto', 'sans-serif';
+    color: var(--primary-text-color);
+    letter-spacing: 0.03em;
+    font-weight: 400;
+
+    &.portfolio {
+        background-color: var(--white-text-color);
+    }
+}

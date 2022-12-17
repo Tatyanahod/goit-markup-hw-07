@@ -1,0 +1,52 @@
+
+.scroll__list{
+margin-top: 0;
+display: flex;
+
+}
+
+.scroll__list li{
+width: 270px;
+ &:not(:last-child) {
+        margin-right: 30px;
+
+    }
+}
+.scroll__cont{
+height: 120px;
+width: 270px;
+content: "";
+    
+    
+   @extend %flex-align;
+  justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--secondary-background-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+   
+}
+.scroll__icon{
+
+
+width: 70px;
+height: 70px;
+
+}
+.scroll__titel{
+margin-top: 0;
+margin-bottom: 10px;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
+.scroll__text {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 14px;
+line-height: 1.7;
+color: var(--dop-text-color);      
+}
+
