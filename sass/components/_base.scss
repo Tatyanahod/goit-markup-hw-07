@@ -518,7 +518,7 @@
     margin-right: 10px;
 }
 
-.chekbox:checked+.checkbox-icon {
+.chekbox:checked +.checkbox-icon {
     background-color: var(--accent-color);
     background-image: url(../images/fullcheck.svg);
     background-size: contain;
