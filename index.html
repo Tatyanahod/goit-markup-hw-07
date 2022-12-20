@@ -12,22 +12,22 @@
 </head>
 <body class="page">
 <!--шапка-->
-<header class="page-header">
+<header >
 <div class="conteiner nav">
     <a class="logo" href="./index.html"> <span class="part-logo">Web</span>Studio</a>
-    <nav class="site-nav">
-        <ul class="list-nav">
-            <li> <a href="./index.html" class="link-current">Студія</a></li>
-            <li> <a href="portfolio.html">Портфоліо</a></li>
-            <li> <a href="">Контакти</a></li>
+    <nav>
+        <ul class="list__nav">
+            <li class="nav__item"> <a href="./index.html" class="link__current link__nav">Студія</a></li>
+            <li class="nav__item"> <a href="portfolio.html" class="link__nav">Портфоліо</a></li>
+            <li class="nav__item"> <a href="" class="link__nav">Контакти</a></li>
         </ul>
     </nav>
     
     <ul class="contacts">
-        <li><a href="mailto:info@devstudio.com"><svg class="icon-mail">
+        <li class="contacts__item"><a href="mailto:info@devstudio.com" class="link__contacts"><svg class="icon__mail">
             <use href="./images/sprite.svg#icon-envelope"></use>
         </svg>info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111"><svg class="icon-phone">
+        <li class="contacts__item"><a href="tel:+380961111111" class="link__contacts"><svg class="icon__phone">
             <use href="./images/sprite.svg#icon-smartphone"></use>
         </svg>+38 096 111 11 11</a></li>
     </ul>
@@ -50,7 +50,7 @@
             <div class="conteiner">
             <h2 hidden >Наші переваги</h2>
             <ul class="scroll__list">
-                <li>
+                <li class="scroll__item">
                     <div class="scroll__cont">
                         <svg class="scroll__icon">
                             <use href="./images/sprite.svg#icon-antenna"></use>
@@ -61,7 +61,7 @@
                     <h3 class="scroll__titel">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p class="scroll__text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиці.</p>
                 </li>
-                <li>
+                <li class="scroll__item">
                     <div class="scroll__cont">
                         <svg class="scroll__icon">
                             <use href="./images/sprite.svg#icon-clock"></use>
@@ -70,7 +70,7 @@
                     <h3 class="scroll__titel">ПУНКТУАЛЬНІСТЬ</h3>
                     <p class="scroll__text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li>
+                <li class="scroll__item">
                     <div class="scroll__cont">
                         <svg class="scroll__icon">
                             <use href="./images/sprite.svg#icon-diagram"></use>
@@ -79,7 +79,7 @@
                     <h3 class="scroll__titel">ПЛАНУВАННЯ</h3>
                     <p class="scroll__text">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
+                <li class="scroll__item">
                    <div class="scroll__cont">
                     <svg class="scroll__icon">
                         <use href="./images/sprite.svg#icon-astronaut"></use>
@@ -100,15 +100,15 @@
             <div class="conteiner">
             <h2 class="technologies__title"> Чим ми займаємося</h2>
             <ul class="technologies__list">
-                <li>
-                    <img src="./images/box1.jpg" width="370" alt="Створення сайтів">
+                <li class="technologies__item">
+                    <img src="./images/box1.jpg" class="technologies-image" width="370" alt="Створення сайтів">
                     <div class="technologies__discription">
                         <span class="technologies__text">Десктопні додатки</span>
                     </div></li>
-                <li><img src="./images/box2.jpg" width="370" alt="Створення мобільних додатків"><div class="technologies__discription">
+                <li class="technologies__item"><img src="./images/box2.jpg"  class="technologies-image" width="370" alt="Створення мобільних додатків"><div class="technologies__discription">
                     <span class="technologies__text">Мобільні додатки</span>
                 </div></li>
-                <li><img src="./images/box3.jpg" width="370" alt="Розробка дизайну сайтів"><div class="technologies__discription">
+                <li class="technologies__item"><img src="./images/box3.jpg"  class="technologies-image" width="370" alt="Розробка дизайну сайтів"><div class="technologies__discription">
                     <span class="technologies__text">Дизайнерські рішення</span>
                 </div></li>
             </ul>
@@ -123,28 +123,28 @@
                 <h2 class="data__titel">Наша команда</h2>
                 <ul class="data__list">
                     <li class="data__discription">
-                        <img src="./images/img.jpg" width="270" alt="Ігор Дем'яненко - Product Designer">
+                        <img src="./images/img.jpg" class="data__image" width="270" alt="Ігор Дем'яненко - Product Designer">
                         <div class="data__property">
                         <h3 class="data__caption">Ігор Дем'яненко</h3>
                         <p class="data__text">Product Designer</p>
-                        <ul class="list-icon">
+                        <ul class="list__icon">
                         
-                            <li> <a href="https://www.instagram.com"target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"> <a href="https://www.instagram.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                             </a> 
                             </li>
-                            <li><a href="https://twitter.com/?lang=ru" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://twitter.com/?lang=ru" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                     <use href="./images/sprite.svg#icon-twitter"></use>
                                 </svg>
                             </a>
                             </li>
-                            <li><a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://uk-ua.facebook.com" class="icon__link"target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                     <use href="./images/sprite.svg#icon-facebook"></use>
                                 </svg>
                             </a>
                             </li>
-                            <li><a href="https://ua.linkedin.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://ua.linkedin.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                     <use href="./images/sprite.svg#icon-linkedin"></use>
                                 </svg>
                             </a>
@@ -153,28 +153,28 @@
                          </div>
                     </li>
                     <li class="data__discription">
-                        <img src="./images/img2.jpg" width="270" alt="Ольга Рєпіна - Frontend Developer">
+                        <img src="./images/img2.jpg" class="data__image" width="270" alt="Ольга Рєпіна - Frontend Developer">
                         <div class="data__property">
                         <h3 class="data__caption">Ольга Рєпіна</h3>
                         <p class="data__text">Frontend Developer</p>
-                        <ul class="list-icon">
+                        <ul class="list__icon">
                         
-                            <li> <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"> <a href="https://www.instagram.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://twitter.com/?lang=ru" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://twitter.com/?lang=ru" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://uk-ua.facebook.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://ua.linkedin.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://ua.linkedin.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -183,28 +183,28 @@
                         </div>
                     </li>
                     <li class="data__discription">
-                        <img src="./images/img3.jpg" width="270" alt="Микола Тарасов - Marketing">
+                        <img src="./images/img3.jpg" class="data__image" width="270" alt="Микола Тарасов - Marketing">
                         <div class="data__property">
                         <h3 class="data__caption">Микола Тарасов</h3>
                         <p class="data__text">Marketing</p>
-                        <ul class="list-icon">
+                        <ul class="list__icon">
                         
-                            <li> <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"> <a href="https://www.instagram.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://twitter.com/?lang=ru" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://twitter.com/?lang=ru" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://uk-ua.facebook.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://ua.linkedin.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://ua.linkedin.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -213,28 +213,28 @@
                         </div>
                     </li>
                     <li class="data__discription">
-                        <img src="./images/img4.jpg" width="270" alt="Михайло Єрмаков - UI Designer">
+                        <img src="./images/img4.jpg" class="data__image" width="270" alt="Михайло Єрмаков - UI Designer">
                         <div class="data__property">
                         <h3 class="data__caption">Михайло Єрмаков</h3>
                         <p class="data__text">UI Designer</p>
-                        <ul class="list-icon">
+                        <ul class="list__icon">
                         
-                            <li> <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"> <a href="https://www.instagram.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-instagram"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://twitter.com/?lang=ru" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://twitter.com/?lang=ru" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-twitter"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://uk-ua.facebook.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-facebook"></use>
                                     </svg>
                                 </a>
                             </li>
-                            <li><a href="https://ua.linkedin.com" target="_blank" rel="noreferrer noopener"> <svg>
+                            <li class="list__item"><a href="https://ua.linkedin.com" class="icon__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__image">
                                         <use href="./images/sprite.svg#icon-linkedin"></use>
                                     </svg>
                                 </a>
@@ -249,23 +249,23 @@
                 <div class="conteiner client">
                     <h2 class="sked__titel">Постійні клієнти</h2>
                     <ul class="sked__list">
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href="" class="sked__link" target="_blank" rel="noreferrer noopener"> <svg  class="sked__image" width="168" height="92">
                                 <use href="./images/sprite.svg#icon-Clientone"></use>
                             </svg>
                         </a></li>
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href=""  class="sked__link" target="_blank" rel="noreferrer noopener"> <svg class="sked__image" width="168" height="92">
                                     <use href="./images/sprite.svg#icon-Clienttwo"></use>
                                 </svg>
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href=""  class="sked__link"  target="_blank" rel="noreferrer noopener"> <svg class="sked__image" width="168" height="92">
                                     <use href="./images/sprite.svg#icon-Clientthree"></use>
                                 </svg>
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href=""  class="sked__link" target="_blank" rel="noreferrer noopener"> <svg class="sked__image" width="168" height="92">
                                     <use href="./images/sprite.svg#icon-Clientfour"></use>
                                 </svg>
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href=""  class="sked__link" target="_blank" rel="noreferrer noopener"> <svg class="sked__image" width="168" height="92">
                                     <use href="./images/sprite.svg#icon-Clientfive"></use>
                                 </svg>
-                        <li><a href="" target="_blank" rel="noreferrer noopener"> <svg width="168" height="92">
+                        <li class="sked__item"><a href=""  class="sked__link" target="_blank" rel="noreferrer noopener"> <svg class="sked__image" width="168" height="92">
                                     <use href="./images/sprite.svg#icon-Clientsix"></use>
                                 </svg>
                     </ul>
@@ -291,24 +291,24 @@
         </div>
         <div class="address__cont">
             <h2 class="conteiner__titel"> Приєднуйтесь</h2>
-            <ul class="list-icon address">
+            <ul class="list__icon address">
         
-                <li> <a href="https://www.instagram.com" target="_blank" rel="noreferrer noopener"> <svg>
+                <li class="list__item" > <a href="https://www.instagram.com" class="address__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__img">
                             <use href="./images/sprite.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
-                <li><a href="https://twitter.com/?lang=ru" target="_blank" rel="noreferrer noopener"> <svg>
+                <li class="list__item"><a href="https://twitter.com/?lang=ru" class="address__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__img">
                             <use href="./images/sprite.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
-                <li><a href="https://uk-ua.facebook.com" target="_blank" rel="noreferrer noopener"> <svg>
+                <li class="list__item"><a href="https://uk-ua.facebook.com" class="address__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__img">
                             <use href="./images/sprite.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
-                <li><a href="https://ua.linkedin.com" target="_blank" rel="noreferrer noopener"> <svg>
+                <li class="list__item"><a href="https://ua.linkedin.com" class="address__link" target="_blank" rel="noreferrer noopener"> <svg class="icon__img">
                             <use href="./images/sprite.svg#icon-linkedin"></use>
                         </svg>
                     </a>
